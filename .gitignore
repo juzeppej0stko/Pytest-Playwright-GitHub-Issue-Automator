@@ -1,5 +1,18 @@
-# Byte-compiled / optimized / DLL files
+# Игнорировать все файлы .pyc
+*.pyc
+
+# Игнорировать все файлы в каталоге .pytest_cache
+.pytest_cache/
+
+# Игнорировать все файлы в каталоге __pycache__
 __pycache__/
+
+# Игнорировать файл .env, если он есть
+.env
+
+# Игнорировать все файлы в каталоге .idea, если вы используете PyCharm
+.idea/
+# Byte-compiled / optimized / DLL files
 *.py[cod]
 *$py.class
 
@@ -48,7 +61,6 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-.pytest_cache/
 cover/
 
 # Translations
@@ -120,7 +132,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
